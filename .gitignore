@@ -1,0 +1,12 @@
+*~
+*.o
+*.a
+*.so
+examples/diffusion-raw
+examples/diffusion-zfp  
+examples/fields.o
+examples/pgm
+examples/simple
+examples/speed
+examples/testzfp
+examples/zfp

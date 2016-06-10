@@ -17,5 +17,9 @@ static: ../lib/libzfp.a
 
 shared: ../lib/libzfp.so
 
+install: $(TARGETS)
+	cp ../lib/libzfp.a /usr/local/lib
+	cp ../lib/libzfp.so /usr/local/lib
+
 clean:
 	rm -f $(TARGETS) $(OBJECTS)
